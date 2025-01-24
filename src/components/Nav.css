@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    position: fixed;   /* Fix the navbar at the top */
+    top: 0;            /* Ensure it stays at the very top */
+    width: 100%;       /* Make sure it spans the full width of the page */
+    z-index: 1000;     /* Keep it above other elements */
+    background-color: #fff; /* Optional: Set a background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual separation */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 35px;
+    margin-left: 15px;
+}
+.navbar span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.link{
+    display: flex;
+    gap: 40px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+}
+.link a:active{
+    color: purple;
+}
+.link a:hover{
+    color: red;
+}
+.cont{
+    border-style: solid;
+    border: 2px solid purple;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    margin-right: 70px;
+}
+.cont:hover{
+    background-color: aqua;
+}
+.cont a{
+    color: rgb(66, 66, 243);
+    text-decoration: none;
+}
